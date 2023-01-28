@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8% 5%;
+}
+
+.card {
+  padding-right: 80px;
+}
+
+.card h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #c4c5c5;
+  text-align: justify;
+}
+/* style for button */
+.card  button{
+    background: #0077ff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.card button:hover {
+    background: #014a9c;
+}
+.card button img {
+    margin-left: 10px;
+}
+
+.loginWrapper span {
+color: #fff;
+}
+/* Header content responsive */
+@media screen and (max-width: 980px) {
+  .bannerImg img {
+    width: none;
+  }
+  .card h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .card p {
+    font-size: 15px;
+  }
+}
