@@ -21,9 +21,9 @@ const Home = () => {
       <div className={`${styles.container}`}>
         <div className={`${styles.card}`}>
           <div className={`${styles.headingWrapper}`}>
-            <h1>👋 Welcome to CodePods</h1>
+            <h1>👋 Welcome to CodPods</h1>
             <p>
-              We're working hard to get CodePods ready for everyone! So everyone
+              We're working hard to get CodPods ready for everyone! So everyone
               can connect with the community and add new valuable skills to
               their lives :)
             </p>

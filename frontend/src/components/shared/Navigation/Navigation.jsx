@@ -17,7 +17,7 @@ const Navigation = () => {
     <>
       <nav className={`${styles.navbar} container`}>
         <Link style={mainStyle} to="/">
-          <span>CodePods</span>
+          <span>CodPods</span>
         </Link>
       </nav>
     </>
